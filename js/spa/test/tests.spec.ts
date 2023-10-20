@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Login', async ({ page }) => {
-  await page.goto('http://localhost:8080/');
+  await page.goto('http://192.168.20.38:8080/');
 
   await login(page)
 
@@ -9,14 +9,14 @@ test('Login', async ({ page }) => {
 });
 
 test('Logout', async ({ page }) => {
-  await page.goto('http://localhost:8080/');
+  await page.goto('http://192.168.20.38:8080/');
 
   await login(page)
   await logout(page);
 });
 
 test('Show Access Token', async ({ page }) => {
-  await page.goto('http://localhost:8080/');
+  await page.goto('http://192.168.20.38:8080/');
 
   await login(page)
 
@@ -25,7 +25,7 @@ test('Show Access Token', async ({ page }) => {
 });
 
 test('Show My Account', async ({ page }) => {
-  await page.goto('http://localhost:8080/');
+  await page.goto('http://192.168.20.38:8080/');
 
   await login(page)
 
