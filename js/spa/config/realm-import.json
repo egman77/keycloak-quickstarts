@@ -7,7 +7,7 @@
       "enabled": true,
       "publicClient": true,
       "directAccessGrantsEnabled": true,
-      "redirectUris": [ "http://localhost:8080/*" ]
+      "redirectUris": [ "http://192.168.20.38:8080/*" ]
     }
   ],
   "users" : [
