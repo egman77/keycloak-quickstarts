@@ -5,7 +5,7 @@ const app = express();
 const port = 8080;
 
 app.use(stringReplace({
-  KC_URL: process.env.KC_URL || "http://localhost:8180"
+  KC_URL: process.env.KC_URL || "http://192.168.20.37:8080"
 }));
 
 app.use('/', express.static('public'));
