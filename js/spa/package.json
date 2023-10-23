@@ -6,7 +6,7 @@
     "test": "npm run create-realm && npx playwright test --project=chromium && npm run delete-realm",
     "create-realm": "node scripts/create-realm.js",
     "delete-realm": "node scripts/delete-realm.js",
-    "list-users-realm": "node scripts/create-realm.js"
+    "list-users-realm": "node scripts/list-users-realm.js"
   },
   "dependencies": {
     "express": "^4.18.2",
