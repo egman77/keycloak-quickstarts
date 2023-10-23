@@ -1,11 +1,14 @@
 import express from 'express';
 import Keycloak from 'keycloak-connect';
 
+import keycloak_config from 'keycloak.json';
+
 const app = express();
 const port = 3000;
 
 // Middleware configuration loaded from keycloak.json file.
-const keycloak = new Keycloak({});
+//const keycloak = new Keycloak({});
+const keycloak = new Keycloak(keycloak_config);
 
 app.use(keycloak.middleware());
 
