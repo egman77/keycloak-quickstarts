@@ -1,6 +1,6 @@
 import express from 'express';
 import Keycloak from 'keycloak-connect';
-import keycloak_config from './keycloak.json' assert { type: 'json' }
+import keycloak_config from './keycloak.json' assert { type: 'json' };
 
 
 const app = express();
