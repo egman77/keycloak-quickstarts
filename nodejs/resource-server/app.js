@@ -1,7 +1,7 @@
 import express from 'express';
 import Keycloak from 'keycloak-connect';
 
-import keycloak_config from 'keycloak.json';
+import keycloak_config from 'keycloak';
 
 const app = express();
 const port = 3000;
