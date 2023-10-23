@@ -3,7 +3,7 @@ import assert from 'node:assert';
 import test from 'node:test';
 import config from '../config/config.js';
 
-const baseUrl = 'http://127.0.0.1:3000';
+const baseUrl = 'http://192.168.20.38:3000';
 
 test('accesses the \'public\' route without credentials.', async () => {
   const response = await fetch(`${baseUrl}/public`);
