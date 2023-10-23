@@ -7,7 +7,7 @@ export default {
     password: 'alice',
     grant_type: 'password',
     client_id: 'test-cli',
-    realmName: 'quickstart'
+    realmName: 'quickstart2'
   },
   adminClient: {
     baseUrl: baseUrl,
